@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_home_discover_sliders",
+  "info": {
+    "name": "discoverSlider",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "sneaker": {
+      "model": "sneaker"
+    }
+  }
+}

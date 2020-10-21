@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_head_sliders",
+  "info": {
+    "name": "headSlider",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "sneaker": {
+      "model": "sneaker"
+    },
+    "bgColor": {
+      "type": "string"
+    }
+  }
+}

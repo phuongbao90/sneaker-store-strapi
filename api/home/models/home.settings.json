@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "headSlider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.head-slider"
+    },
+    "discoverSlider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.discover-slider"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_crew_crews",
+  "info": {
+    "name": "crew",
+    "icon": "grin-squint-tears"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "facebook": {
+      "type": "string"
+    }
+  }
+}

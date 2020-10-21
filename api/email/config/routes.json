@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/verify-captcha",
+      "handler": "email.verifyCaptcha",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/email/contact",
+      "handler": "email.contact",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/email/receipt",
+      "handler": "email.sendReceipt",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

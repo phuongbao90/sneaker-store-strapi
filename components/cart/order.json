@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cart_orders",
+  "info": {
+    "name": "order",
+    "icon": "store"
+  },
+  "options": {},
+  "attributes": {
+    "sneaker": {
+      "model": "sneaker"
+    },
+    "size": {
+      "type": "integer",
+      "min": 0
+    },
+    "quantity": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "sneaker-store-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A backend server for sneaker store website",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "localtunnel": "lt --port 1337 --subdomain sneaker-store90-be"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^3.0.0",
+    "knex": "<0.20.0",
+    "lodash": "^4.17.20",
+    "mailgun.js": "^2.0.1",
+    "nodemailer": "^6.4.13",
+    "sqlite3": "^5.0.0",
+    "strapi": "^3.2.0",
+    "strapi-admin": "^3.2.0",
+    "strapi-connector-bookshelf": "^3.2.0",
+    "strapi-email-nodemailer": "^0.2.1",
+    "strapi-plugin-content-manager": "^3.2.0",
+    "strapi-plugin-content-type-builder": "^3.2.0",
+    "strapi-plugin-email": "^3.2.0",
+    "strapi-plugin-upload": "^3.2.0",
+    "strapi-plugin-users-permissions": "^3.2.0",
+    "strapi-provider-email-mailgun": "^3.2.0",
+    "strapi-provider-email-mailtrap": "^3.1.5",
+    "strapi-utils": "^3.2.0"
+  },
+  "author": {
+    "name": "phuongbao90"
+  },
+  "strapi": {
+    "uuid": "598a33d8-d2b7-4d6d-881e-b5eb459169c8"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

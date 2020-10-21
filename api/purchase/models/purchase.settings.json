@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "purchases",
+  "info": {
+    "name": "purchase"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cart.purchase"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "purchase"
+    }
+  }
+}

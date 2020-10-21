@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "name": "about-us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "headingImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "crew": {
+      "type": "component",
+      "repeatable": true,
+      "component": "crew.crew"
+    }
+  }
+}

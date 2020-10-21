@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sneakers",
+      "handler": "sneaker.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/findSlugs",
+      "handler": "sneaker.findSlugs",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sneakers/count",
+      "handler": "sneaker.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sneakers/:id",
+      "handler": "sneaker.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sneakers",
+      "handler": "sneaker.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sneakers/:id",
+      "handler": "sneaker.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sneaker-availability/:id",
+      "handler": "sneaker.updateAvailability",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sneakers/:id",
+      "handler": "sneaker.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
